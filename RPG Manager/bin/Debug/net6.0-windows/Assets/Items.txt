@@ -1,0 +1,20 @@
+Miecz z Tlenku Żelaza
+Wspaniałą broń wykonana z unikalnych materiałów
+Miecz
+assets\items\\miecz.png
+Hełm Zwany Kaskiem
+Brak
+Hełm
+Brak
+Różdżka Arcymaga
+Brak
+Laska
+assets\items\\rozdzka.png
+Łuk nad Łuki
+Łuk jak ich mało
+Łuk
+assets\items\\luk.png
+Mikstura Leczenia
+Leczy 50 HP
+Mikstura
+assets\items\\

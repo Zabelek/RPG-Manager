@@ -1,0 +1,126 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<RootNamespace>RPG_Manager</RootNamespace>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<PackageIcon>icon.png</PackageIcon>
+		<ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="assets/background/fade.png" />
+		<None Remove="assets/background/main.png" />
+		<None Remove="assets/background/Creation.png" />
+		<None Remove="assets/menu/hero_border.png" />
+		<None Remove="assets/menu/hero_image_shadow.png" />
+		<None Remove="assets/menu/backpack_border.png" />
+		<None Remove="assets/menu/backpack_background.png" />
+		<None Remove="assets/menu/item_image_shadow.png" />
+		<None Remove="assets/menu/item_button_shadow.png" />
+		<None Remove="assets/menu/icons/door.png" />
+		<None Remove="assets/menu/icons/save.png" />
+		<None Remove="assets/menu/health_bar_0.png" />
+		<None Remove="assets/menu/health_bar_1.png" />
+		<None Remove="assets/menu/health_bar_shadow.png" />
+		<None Remove="assets/menu/icons/charisma.png" />
+		<None Remove="assets/menu/icons/dextrity.png" />
+		<None Remove="assets/menu/icons/health.png" />
+		<None Remove="assets/menu/icons/intelligence.png" />
+		<None Remove="assets/menu/icons/magic.png" />
+		<None Remove="assets/menu/icons/perception.png" />
+		<None Remove="assets/menu/icons/strength.png" />
+		<None Remove="assets/menu/icons/backpack.png" />
+		<None Remove="assets/menu/icons/heteronomicon.png" />
+		<None Remove="assets/menu/icons/perks.png" />
+		<None Remove="assets/menu/icons/guild.png" />
+		<None Remove="assets/menu/icons/anvil.png" />
+		<None Remove="assets/menu/divider.png" />
+		<None Remove="assets/menu/main_buttons_shadow.png" />
+		<None Remove="assets/menu/icons/hero.png" />
+		<None Remove="assets/menu/heteronomicon_background.png" />
+		<None Remove="assets/menu/heteronomicon_divider.png" />
+		<None Remove="assets/Item Categories/zloto.png" />
+		<None Remove="assets/guild/main_background.png" />
+		<None Remove="assets/guild/title_background.png" />
+
+		<None Remove="assets/Random Placeholders/Hero/1.png" />
+		<None Remove="assets/Item Categories/pozostale.png" />
+		<None Remove="assets/Item Categories/helm.png" />
+		<None Remove="assets/Item Categories/zbroja.png" />
+		<None Remove="assets/Item Categories/zwoj.png" />
+		
+
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="assets/background/main.png" />
+		<Resource Include="assets/background/fade.png" />
+		<Resource Include="assets/background/Creation.png" />
+		<Resource Include="assets/menu/hero_border.png" />
+		<Resource Include="assets/menu/hero_image_shadow.png" />
+		<Resource Include="assets/menu/backpack_border.png" />
+		<Resource Include="assets/menu/backpack_background.png" />
+		<Resource Include="assets/menu/item_image_shadow.png" />
+		<Resource Include="assets/menu/item_button_shadow.png" />
+		<Resource Include="assets/menu/icons/door.png" />
+		<Resource Include="assets/menu/icons/save.png" />
+		<Resource Include="assets/menu/health_bar_0.png" />
+		<Resource Include="assets/menu/health_bar_1.png" />
+		<Resource Include="assets/menu/health_bar_shadow.png" />
+		<Resource Include="assets/menu/icons/charisma.png" />
+		<Resource Include="assets/menu/icons/dextrity.png" />
+		<Resource Include="assets/menu/icons/health.png" />
+		<Resource Include="assets/menu/icons/intelligence.png" />
+		<Resource Include="assets/menu/icons/magic.png" />
+		<Resource Include="assets/menu/icons/perception.png" />
+		<Resource Include="assets/menu/icons/strength.png" />
+		<Resource Include="assets/menu/icons/backpack.png" />
+		<Resource Include="assets/menu/icons/heteronomicon.png" />
+		<Resource Include="assets/menu/icons/hero.png" />
+		<Resource Include="assets/menu/icons/perks.png" />
+		<Resource Include="assets/menu/icons/guild.png" />
+		<Resource Include="assets/menu/icons/anvil.png" />
+		<Resource Include="assets/menu/divider.png" />
+		<Resource Include="assets/menu/main_buttons_shadow.png" />
+		<Resource Include="assets/menu/heteronomicon_background.png" />
+		<Resource Include="assets/menu/heteronomicon_divider.png" />
+		<Resource Include="assets/Item Categories/zloto.png" />
+		<Resource Include="assets/guild/main_background.png" />
+		<Resource Include="assets/guild/title_background.png" />
+
+		<Resource Include="assets/Random Placeholders/Hero/1.png" />
+		<Resource Include="assets/Item Categories/pozostale.png" />
+		<Resource Include="assets/Item Categories/helm.png" />
+		<Resource Include="assets/Item Categories/zbroja.png" />
+		<Resource Include="assets/Item Categories/zwoj.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Assets\icon.ico" />
+		<Content Include="fonts/IMMORTAL.ttf" />
+		<Content Include="fonts/IMMRTLT_.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Properties\Settings.Designer.cs">
+	    <DesignTimeSharedInput>True</DesignTimeSharedInput>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Settings.settings</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Assets\icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="Properties\Settings.settings">
+	    <Generator>SettingsSingleFileGenerator</Generator>
+	    <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+	  </None>
+	</ItemGroup>
+
+</Project>

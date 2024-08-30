@@ -1,0 +1,24 @@
+﻿<Window x:Class="RPG_Manager.views.CreationView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager.views"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        Title="CreationView" Height="1080" Width="1920">
+    <Grid>
+        <Image x:Name="background" Source="/assets/background/Creation.png" Stretch="Fill"/>
+        <Image x:Name="titleBackground" Stretch="Fill" Width="796" Height="80" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,25,0,0" Source="/assets/guild/title_background.png"/>
+        <Label x:Name="titleLabel" Content="Panel Tworzenia i Edycji Treści" Foreground="#FFC1C1C1" FontSize="36" Margin="183,35,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <StackPanel x:Name="buttonsStackPanel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="450" Height="806" Margin="1348,132,0,0" Background="#B2000000">
+            <Button Content="Bohaterowie" Style="{StaticResource boxButtonStyle}" Width="380" Height="56" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="22"/>
+            <Button Content="Przedmioty" Style="{StaticResource boxButtonStyle}" Width="380" Height="56" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="22"/>
+            <Button Content="Umiejętności" Style="{StaticResource boxButtonStyle}" Width="380" Height="56" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="22"/>
+            <Button Content="Talenty" Style="{StaticResource boxButtonStyle}" Width="380" Height="56" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="22"/>
+            <Button Content="Ulepszenia Gildii" Style="{StaticResource boxButtonStyle}" Width="380" Height="56" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" FontSize="22"/>
+        </StackPanel>
+    </Grid>
+</Window>

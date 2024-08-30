@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>E:\RPG Manager\RPG Manager\RPG Manager\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="views\AbilityView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AddFurnitureView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AddItemMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\BackpackView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\ChangeHpWidget.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\CreationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\GuildView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\HeroesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\HeteronomiconView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\ItemEditingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\PerkAddingView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="views\AbilityView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\AddFurnitureView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\AddItemMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\BackpackView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\ChangeHpWidget.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\CreationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\GuildView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\HeroesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\HeteronomiconView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\ItemEditingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="views\PerkAddingView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

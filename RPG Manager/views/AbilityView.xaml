@@ -1,0 +1,20 @@
+﻿<Window x:Class="RPG_Manager.views.AbilityView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager.views"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        WindowStartupLocation="Manual" 
+        Left="700" Top="600"
+        Title="AbilityView" Height="250" Width="500">
+    <Grid>
+        <Label x:Name="abilityTitleLabel" Content="Nazwa Talentu" Width="415" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,5,0,0" Foreground="#FFCECECE" />
+        <TextBlock x:Name="abilityDescLabel" Text="Opis Talentu" TextWrapping="Wrap" Width="450" Height="160" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,65,0,0" FontSize="16" Foreground="#FFC7C7C7" />
+        <Button Content="OK" Style="{StaticResource boxButtonStyle}" Width="100" Height="35" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10" Click="Button_Click" />
+        <Image Source="/assets/menu/divider.png" Width="475" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,33,0,0" Stretch="Fill" />
+        <Image HorizontalAlignment="Left" Height="100" Margin="926,222,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

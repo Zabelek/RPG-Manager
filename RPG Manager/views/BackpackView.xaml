@@ -1,0 +1,46 @@
+﻿<Window x:Class="RPG_Manager.views.BackpackView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager.views"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        WindowStartupLocation="Manual" 
+        Left="260" Top="150"
+        ResizeMode="NoResize"
+        Title="BackpackView" Height="750" Width="1400">
+    <Grid>
+        <Image Source="/assets/menu/backpack_background.png" HorizontalAlignment="Right" VerticalAlignment="Top" Stretch="Fill"/>
+        <Image x:Name="previewImage" Source="/assets/Random Placeholders/Hero/26.png" Width="290" Height="298" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,66,72,0" Stretch="Fill"/>
+        <Image Source="/assets/menu/item_image_shadow.png" Width="290" Height="298" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,66,72,0" Stretch="Fill"/>
+        <Image Source="/assets/menu/backpack_border.png" Stretch="Fill" />
+        <Label x:Name="itemtitleLabel" Content="Nazwa Przedmiotu" Foreground="#FFB3B3B3" Width="385" Height="40" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,380,20,0"/>
+        <Image Source="/assets/menu/divider.png" Width="390" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,410,20,0"/>
+        <TextBlock x:Name="descriptionTextBlock" Text="Opis Przedmiotu" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,435,40,0" Width="350" Height="250" FontSize="14" TextWrapping="WrapWithOverflow"/>
+        <Label x:Name="titleLabel" Content="Plecak:" Width="700" Height="50" Foreground="#FFC1C1C1" FontSize="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,15,0,0"/>
+        <ScrollViewer Width="945" Height="585" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,70,0,0" VerticalScrollBarVisibility="Auto">
+            <Grid x:Name="itemsGrid" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="120"/>
+                </Grid.RowDefinitions>
+                </Grid>
+        </ScrollViewer>
+        <Button Style="{StaticResource boxButtonStyle}" Content="OK" Width="100" Height="45" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,15" Click="Button_Click"/>
+        <Button x:Name="equipButton" Style="{StaticResource boxButtonStyle}" Content="Wyposaż" Width="115" Height="45" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,290,15" Click="equipButton_Click"/>
+        <Button x:Name="damageButton" Style="{StaticResource boxButtonStyle}" Content="Napraw" Width="115" Height="45" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,155,15" Click="damageButton_Click"/>
+        <Button x:Name="editButton" Style="{StaticResource boxButtonStyle}" Content="Edytuj" Width="115" Height="45" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,15" Click="editButton_Click"/>
+        <Image Width="60" Height="60" HorizontalAlignment="Left" VerticalAlignment="Top" Source="/assets/Item Categories/zloto.png" Margin="28,673,0,0" />
+        <TextBox x:Name="goldTextBox" Text="1000" Width="200" Height="47" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="100,677,0,0" FontSize="24" FontWeight="Bold" Background="#CC000000" Foreground="#FFCCCCCC" VerticalContentAlignment="Center" Padding="5" BorderBrush="#4C989898" />
+        <TextBox x:Name="goldModTextBox" Text="0" Width="70" Height="47" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="340,677,0,0" FontSize="24" FontWeight="Bold" Background="#CC000000" Foreground="#FFCCCCCC" VerticalContentAlignment="Center" Padding="5" BorderBrush="#4C989898" />
+        <Button Style="{StaticResource boxButtonStyle}" Content="+" Width="35" Height="35" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="420,0,0,32" Click="AddGold_Click"/>
+    </Grid>
+</Window>

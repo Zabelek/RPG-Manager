@@ -1,0 +1,78 @@
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.exe
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.deps.json
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.runtimeconfig.json
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.pdb
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.csproj.AssemblyReference.cache
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\App.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_MarkupCompile.cache
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_MarkupCompile.lref
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.g.resources
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.GeneratedMSBuildEditorConfig.editorconfig
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.AssemblyInfoInputs.cache
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.AssemblyInfo.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.csproj.CoreCompileInputs.cache
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\refint\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.pdb
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.genruntimeconfig.cache
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\ref\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\App.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\MainWindow.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\MainWindow.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeroesView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeroesView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_Content.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ChangeHpWidget.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ChangeHpWidget.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AbilityView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AbilityView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeteronomiconView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeteronomiconView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\BackpackView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\BackpackView.baml
+E:\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.exe
+E:\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.deps.json
+E:\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.runtimeconfig.json
+E:\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.dll
+E:\RPG Manager\RPG Manager\bin\Debug\net6.0-windows\RPG Manager.pdb
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.csproj.AssemblyReference.cache
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AbilityView.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\BackpackView.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ChangeHpWidget.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeroesView.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeteronomiconView.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\MainWindow.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\App.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_Content.g.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_MarkupCompile.cache
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager_MarkupCompile.lref
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\App.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AbilityView.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\BackpackView.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ChangeHpWidget.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeroesView.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\HeteronomiconView.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\MainWindow.baml
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.g.resources
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.GeneratedMSBuildEditorConfig.editorconfig
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.AssemblyInfoInputs.cache
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.AssemblyInfo.cs
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.csproj.CoreCompileInputs.cache
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.dll
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\refint\RPG Manager.dll
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.pdb
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\RPG Manager.genruntimeconfig.cache
+E:\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\ref\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AddItemMenu.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AddItemMenu.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ItemEditingView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\ItemEditingView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\PerkAddingView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\PerkAddingView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\GuildView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\GuildView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AddFurnitureView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\AddFurnitureView.baml
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\CreationView.g.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\views\CreationView.baml

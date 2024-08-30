@@ -1,0 +1,20 @@
+﻿RPG Manager
+
+
+winexe
+C#
+.cs
+E:\RPG Manager\RPG Manager\RPG Manager\obj\Debug\net6.0-windows\
+RPG_Manager
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+E:\RPG Manager\RPG Manager\RPG Manager\App.xaml
+12-540961293
+3-1050428592
+26-1017017347
+194-1976662911
+views\AbilityView.xaml;views\AddFurnitureView.xaml;views\AddItemMenu.xaml;views\BackpackView.xaml;views\ChangeHpWidget.xaml;views\CreationView.xaml;views\GuildView.xaml;views\HeroesView.xaml;views\HeteronomiconView.xaml;views\ItemEditingView.xaml;views\MainWindow.xaml;views\PerkAddingView.xaml;
+
+False
+

@@ -1,0 +1,4 @@
+100
+Kowadło Żywiołów
+Magiczne kowadło pozwalające nadawać każdemu przedmiotowi ulepszenie jednego z czterech żywiołów: Ziemia, Woda, Ogień lub Powietrze. Można zabierać ten przedmiot na wyprawy.
+assets\Guild\Furniture\\kowadlo_zywiolow.png

@@ -1,0 +1,53 @@
+﻿<Window x:Class="RPG_Manager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        Title="RPG Manager" Height="1080" Width="1920">
+    <Grid x:Name="mainGrid">
+        <Image x:Name="backgroundImage" Source="/assets/background/main.png" Stretch="Fill"  />
+        <Image Source="/assets/background/fade.png" Stretch="Fill" OpacityMask="#ff000000">
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <BeginStoryboard>
+                        <Storyboard Duration="00:00:11" Storyboard.TargetProperty="Opacity">
+                            <DoubleAnimation From="1" To="0"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+        <Image x:Name="mainButtonsShadow" Source="/assets/menu/main_buttons_shadow.png" HorizontalAlignment="Left" OpacityMask="#B2000000"/>
+        <Button x:Name="heroesViewButton" Style ="{StaticResource menuButtonStyle}" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="heroesViewButton_Click">
+            <Image Source="/assets/menu/icons/hero.png"/>
+        </Button>
+        <Button x:Name="guildViewButton" Style ="{StaticResource menuButtonStyle}" HorizontalAlignment="Left" Margin="20,90,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="guildViewButton_Click">
+            <Image Source="/assets/menu/icons/guild.png"/>
+        </Button>
+        <Button x:Name="creatorsViewButton" Style ="{StaticResource menuButtonStyle}" HorizontalAlignment="Left" Margin="20,170,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="creatorsViewButton_Click">
+            <Image Source="/assets/menu/icons/anvil.png"/>
+        </Button>
+        <Button x:Name="exitButton" Style ="{StaticResource menuButtonStyle}" HorizontalAlignment="Left" Margin="20,1000,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="exitButton_Click">
+            <Image Source="/assets/Menu/Icons/door.png"/>
+        </Button>
+        <Button x:Name="saveButton" Style ="{StaticResource menuButtonStyle}" HorizontalAlignment="Left" Margin="20,930,0,0" VerticalAlignment="Top" Width="60" Height="60" Click="saveButton_Click">
+            <Image Source="/assets/Menu/Icons/save.png"/>
+        </Button>
+        <Image x:Name="dialogShadow" Source="/assets/background/fade.png" Stretch="Fill" OpacityMask="#D2000000">
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="Loaded">
+                    <BeginStoryboard>
+                        <Storyboard Duration="00:00:01" Storyboard.TargetProperty="Opacity">
+                            <DoubleAnimation From="0" To="1"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
+    </Grid>
+</Window>

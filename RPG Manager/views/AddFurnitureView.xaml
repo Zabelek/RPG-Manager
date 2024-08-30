@@ -1,0 +1,24 @@
+﻿<Window x:Class="RPG_Manager.views.AddFurnitureView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager.views"
+        mc:Ignorable="d"
+        WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        WindowStartupLocation="Manual" 
+        Left="785" Top="200"
+        ResizeMode="NoResize"
+        Title="AddFurnitureView" Height="550" Width="400">
+    <Grid>
+        <Label Margin="23,10,34,505" Content="Nazwa:"  Foreground="#FFB3B3B3" />
+        <TextBox x:Name="nameTextBox" Margin="23,45,34,464" Background="#CCFFFFFF"/>
+        <Label Margin="23,176,34,338" Content="Opis:"  Foreground="#FFB3B3B3" />
+        <TextBox x:Name="descTextBox" Margin="23,217,34,93" Background="#CCFFFFFF"/>
+        <Button x:Name="okButton" Content="OK" Margin="23,485,250,23" Style="{StaticResource boxButtonStyle}" Click="okButton_Click"/>
+        <Button x:Name="cancelButton" Content="Anuluj" Margin="258,485,34,23" Style="{StaticResource boxButtonStyle}" Click="cancelButton_Click"/>
+        <Label Margin="23,95,34,420" Content="Zdjęcie:" Foreground="#FFB3B3B3" />
+        <TextBox x:Name="imageTextBox" Margin="23,130,34,379" Background="#CCFFFFFF"/>
+    </Grid>
+</Window>

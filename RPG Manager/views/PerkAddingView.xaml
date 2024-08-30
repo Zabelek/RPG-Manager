@@ -1,0 +1,44 @@
+﻿<Window x:Class="RPG_Manager.views.PerkAddingView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RPG_Manager.views"
+        mc:Ignorable="d"
+                WindowStyle="None"
+        Style="{StaticResource defaultStyle}"
+        WindowStartupLocation="Manual" 
+        Left="560" Top="250"
+        ResizeMode="NoResize"
+        Title="PerkAddingView" Height="650" Width="800">
+    <Grid>
+        <Button x:Name="cancelButton" Style="{StaticResource boxButtonStyle}" Content="Anuluj" Click="cancelButton_Click" Width="100" Height="40" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10"/>
+        <Label Content="Dodaj Umiejętność:" Width="300" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,5,0,0" Foreground="#FFB3B3B3" FontSize="24"/>
+        <Label Content="Dodaj Talent:" Width="300" Height="40" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,5,0,0" Foreground="#FFB3B3B3" FontSize="24"/>
+        <TextBox x:Name="professionsFilter" Width="360" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,50,0,0" Background="#CCFFFFFF" KeyDown="professionsFilter_KeyDown"/>
+        <TextBox x:Name="abilitiesFilter" Width="360" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,50,0,0" Background="#CCFFFFFF" KeyDown="abilityFilter_KeyDown"/>
+        <ScrollViewer Width="360" Height="350" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0">
+            <StackPanel x:Name="professionsGrid">
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Width="360" Height="265" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,80,0,0">
+            <StackPanel x:Name="abilitiesGrid">
+            </StackPanel>
+        </ScrollViewer>
+        <TextBox x:Name="professionsNameTextBox" Width="360" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,450,0,0" Background="#CCFFFFFF" FontWeight="Bold"/>
+        <TextBox x:Name="abilitiesNameTextBox" Width="360" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,360,0,0" Background="#CCFFFFFF" FontWeight="Bold"/>
+        <TextBox x:Name="abilitiesDescriptionBox" Width="360" Height="125" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,400,0,0" Background="#CCFFFFFF" FontSize="14" TextWrapping="WrapWithOverflow" FontWeight="Bold"/>
+        <ComboBox x:Name="professionsStatsComboBox" Width="360" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,490,0,0" FontWeight="Bold">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="#FFF0F0F0"/>
+                    <GradientStop Color="#CCE5E5E5" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+        </ComboBox>
+        <Button x:Name="addAbilitiesButton" Style="{StaticResource boxButtonStyle}" Content="Dodaj" Width="160" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="420,540,0,0" Click="addAbilitiesButton_Click"/>
+        <Button x:Name="addProfessionsButton" Style="{StaticResource boxButtonStyle}" Content="Dodaj" Width="160" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,538,0,0" Click="addProfessionsButton_Click"/>
+        <Button x:Name="removeProfessionsButton" Style="{StaticResource boxButtonStyle}" Content="Usuń" Width="160" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="220,540,0,0" Click="removeProfessionsButton_Click"/>
+        <Button x:Name="removeAbilitiesButton" Style="{StaticResource boxButtonStyle}" Content="Usuń" Width="160" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="620,540,0,0" Click="removeAbilitiesButton_Click"/>
+    </Grid>
+</Window>

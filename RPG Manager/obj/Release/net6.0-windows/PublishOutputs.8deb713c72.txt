@@ -1,0 +1,5 @@
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Release\net6.0-windows\publish\RPG Manager.exe
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Release\net6.0-windows\publish\RPG Manager.dll
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Release\net6.0-windows\publish\RPG Manager.deps.json
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Release\net6.0-windows\publish\RPG Manager.runtimeconfig.json
+E:\RPG Manager\RPG Manager\RPG Manager\bin\Release\net6.0-windows\publish\RPG Manager.pdb
