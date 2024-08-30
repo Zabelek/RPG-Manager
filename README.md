@@ -11,11 +11,11 @@ Część oprawy graficznej programu stworzono posiłkując się modelami sztuczn
 
 Przedmioty i meble bez zdjęcia wyświetlają losowe place-holdery lub ikony klasy przedmiotu.
 
-![Image1](https://github.com/Zabelek/RPG-Manager/blob/main/images/1.png?raw=true)
+![Image2](https://github.com/Zabelek/RPG-Manager/blob/main/images/2.png?raw=true)
 
 W widoku plecaka można w dowolnym momencie modyfikować już istniejące przedmioty, zmieniając im opis, klasę lub dodając zdjęcie. W małym polu obok ilości pieniędzy można dodawać lub odejmować określone kwoty.
 
-![Image1](https://github.com/Zabelek/RPG-Manager/blob/main/images/1.png?raw=true)
+![Image3](https://github.com/Zabelek/RPG-Manager/blob/main/images/3.png?raw=true)
 
 Ekran z postaciami jest w pełni interaktywny. Większość z wyświetlanych statystyk można na bieżąco edytować. Aby na przykład zmienić wartość punktów życia postaci, wystarczy nacisnąć czerwony pasek i wpisać odpowiednią wartość.
 
