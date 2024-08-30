@@ -7,4 +7,16 @@ Jest to swego rodzaju pomocnik mistrza gry w dedykowanym systemie RPG. Program s
 
 Część oprawy graficznej programu stworzono posiłkując się modelami sztucznej inteligencji opartej na SD1.5 oraz Flux
 
+![Image1](https://github.com/Zabelek/RPG-Manager/blob/main/images/1.png?raw=true)
+
+Przedmioty i meble bez zdjęcia wyświetlają losowe place-holdery lub ikony klasy przedmiotu.
+
+![Image1](https://github.com/Zabelek/RPG-Manager/blob/main/images/1.png?raw=true)
+
+W widoku plecaka można w dowolnym momencie modyfikować już istniejące przedmioty, zmieniając im opis, klasę lub dodając zdjęcie. W małym polu obok ilości pieniędzy można dodawać lub odejmować określone kwoty.
+
+![Image1](https://github.com/Zabelek/RPG-Manager/blob/main/images/1.png?raw=true)
+
+Ekran z postaciami jest w pełni interaktywny. Większość z wyświetlanych statystyk można na bieżąco edytować. Aby na przykład zmienić wartość punktów życia postaci, wystarczy nacisnąć czerwony pasek i wpisać odpowiednią wartość.
+
 Projekt jest w fazie rozwoju, część funkcjonalności nie działa jeszcze tak jak trzeba.
